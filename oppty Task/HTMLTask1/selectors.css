@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: rgb(255, 81, 0);
+    
+}
+.one h1{
+    text-align: center;
+
+}
+.one h2{
+    text-align: center;
+    
+}
+.two h2{
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+.two h3{
+    background-color: darkorange;
+}
+.three h2{
+     background-color: darkorange;
+
+}
+.four h2{
+     background-color: darkorange;
+}
+.five h2{
+     background-color: darkorange;
+}
+.six h2{
+     background-color: darkorange;
+
+}
+.seven h2{
+     background-color: darkorange;
+}
+#CONTACT{
+    background-color: rgb(255, 81, 0);
+    text-align: center;
+}
