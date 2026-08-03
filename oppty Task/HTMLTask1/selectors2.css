@@ -1,0 +1,71 @@
+
+
+#header h1{
+    color: blueviolet;
+    text-align: center;
+}
+.one h2{
+    text-align: center;
+    color: brown;
+
+}
+ nav  {
+    text-align: center;
+    gap: 40px;
+    justify-content: center;
+    display: flex;
+    
+}
+#header{
+    background-color: bisque;
+}
+nav :hover{
+    background-color: rgb(237, 100, 146);
+    border: radius 50px; ;
+}
+body{ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2GvDaW-BIe-MNL4v0N4JxX1RElfv9aY4hMbrJgE1RJQ&s=10"); 
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size:cover ;
+    
+    background-attachment: fixed;
+
+}
+#header{
+    top: 0;
+    z-index: ;
+    position: sticky;
+}
+button{
+    background-color: #00ff00;
+    
+    
+}
+.four{
+    color: aliceblue;
+    text-align: center;
+}
+
+.five h1,h2,p{
+    color: gainsboro;
+    text-align: center;
+}
+.six h1,button{
+    background-color: darkkhaki;
+    text-align: center;
+    
+}
+.five img{
+    justify-content: center;
+    
+    gap: 40px;
+    display: flex;
+    
+
+}
+.eight{
+    justify-content: center;
+    gap: 40px;
+    display: flex;
+}
+

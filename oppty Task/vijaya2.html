@@ -16,3 +16,309 @@
     
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Booking Website</title>
+
+<style>
+
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Element Selector */
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+/* ID Selector */
+#header{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Group Selector */
+h2,p{
+    margin:10px 0;
+}
+
+/* Descendant Selector */
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    background:#023e8a;
+}
+
+nav ul li{
+    margin:10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+}
+
+/* Hover */
+nav ul li a:hover{
+    background:white;
+    color:#023e8a;
+    border-radius:5px;
+}
+
+/* Child Selector */
+section>h2{
+    color:#0077b6;
+}
+
+/* Adjacent Sibling */
+h2+p{
+    color:#666;
+}
+
+/* General Sibling */
+h2~.card{
+    margin-top:20px;
+}
+
+/* Class Selector */
+.container{
+    width:90%;
+    margin:auto;
+    padding:30px 0;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    box-shadow:0 0 8px gray;
+}
+
+/* First Child */
+.card:first-child{
+    border-left:6px solid green;
+}
+
+/* Last Child */
+.card:last-child{
+    border-left:6px solid red;
+}
+
+/* nth-child */
+.card:nth-child(3){
+    background:#d9f99d;
+}
+
+/* Attribute Selector */
+input[type="text"],
+input[type="email"],
+select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+/* Focus */
+input:focus,select:focus{
+    border:2px solid blue;
+    outline:none;
+}
+
+/* Placeholder */
+::placeholder{
+    color:gray;
+}
+
+/* Checked */
+input[type="checkbox"]:checked+label{
+    color:green;
+    font-weight:bold;
+}
+
+/* Button */
+button{
+    background:#0077b6;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#023e8a;
+}
+
+/* Before */
+h2::before{
+    content:"✈ ";
+}
+
+/* After */
+h2::after{
+    content:" 🌍";
+}
+
+/* First Letter */
+p::first-letter{
+    font-size:28px;
+    color:red;
+    font-weight:bold;
+}
+
+/* Selection */
+::selection{
+    background:orange;
+    color:white;
+}
+
+/* Gallery */
+.gallery img{
+    width:220px;
+    margin:10px;
+    border-radius:10px;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+    transition:.3s;
+}
+
+/* Footer */
+footer{
+    background:#023e8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header id="header">
+<h1>Travel Explorer</h1>
+<p>Discover Amazing Destinations Around the World</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#packages">Packages</a></li>
+<li><a href="#booking">Booking</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#testimonials">Testimonials</a></li>
+<li><a href="#footer">Contact</a></li>
+</ul>
+</nav>
+
+<section id="packages" class="container">
+
+<h2>Tour Packages</h2>
+<p>Choose your favorite destination.</p>
+
+<div class="card">
+<h3>Goa Beach Tour</h3>
+<p>3 Days | ₹8,999</p>
+</div>
+
+<div class="card">
+<h3>Manali Adventure</h3>
+<p>5 Days | ₹14,999</p>
+</div>
+
+<div class="card">
+<h3>Kashmir Paradise</h3>
+<p>6 Days | ₹18,999</p>
+</div>
+
+</section>
+
+<section id="booking" class="container">
+
+<h2>Booking Form</h2>
+<p>Fill the details below.</p>
+
+<form>
+
+<input type="text" placeholder="Enter Name">
+
+<input type="email" placeholder="Enter Email">
+
+<select>
+<option>Select Package</option>
+<option>Goa</option>
+<option>Manali</option>
+<option>Kashmir</option>
+</select>
+
+<input type="checkbox" id="agree">
+<label for="agree">I Agree Terms & Conditions</label>
+
+<br><br>
+
+<button>Book Now</button>
+
+</form>
+
+</section>
+
+<section id="gallery" class="container">
+
+<h2>Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://picsum.photos/220/150?1">
+
+<img src="https://picsum.photos/220/150?2">
+
+<img src="https://picsum.photos/220/150?3">
+
+</div>
+
+</section>
+
+<section id="testimonials" class="container">
+
+<h2>Testimonials</h2>
+
+<div class="card">
+<h3>Rahul</h3>
+<p>Excellent travel experience with great service.</p>
+</div>
+
+<div class="card">
+<h3>Priya</h3>
+<p>Affordable packages and wonderful destinations.</p>
+</div>
+
+</section>
+
+<footer id="footer">
+
+<h3>Travel Explorer</h3>
+
+<p>📍 Bangalore | 📞 +91 9876543210</p>
+
+<p>© 2026 Travel Explorer. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
