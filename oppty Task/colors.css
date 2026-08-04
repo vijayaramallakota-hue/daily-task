@@ -1,0 +1,64 @@
+nav  {
+    text-align: right;
+    gap: 20px;
+    justify-content: right;
+    display: flex;
+    background-color: bisque;
+}
+button{
+    background-color: cornflowerblue;
+
+}
+body{
+    background:linear-gradient(rgb(220, 101, 51),rgb(100, 251, 51)),url("./images/natual.jpg");
+    /* background: linear-gradient(rgb(150, 250, 100)); */
+    /* background:linear-gradient(rgba(215, 113, 23, 0.6), rgba(145, 19, 136, 0.6)),url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+
+}
+.three h2{
+    text-align: center;
+    color: azure;
+}
+.three h1{
+    text-align: center;
+     color: azure;
+     font-size: 70px;
+
+}
+.three p{
+    text-align: center;
+     color: azure;
+
+     
+     
+
+}
+.three p{
+    border:2px solid black;
+    width: 1500px;
+    height: 70px; 
+    border-radius: 50px;
+}
+.three button{
+    font-size: 20px;
+    border-radius: 20px;
+}
+.four img{
+    border:2px dotted black ;
+    
+
+}
+.five p{
+    text-align: center;
+    color: skyblue;
+    font-size: 60px;
+    border-bottom: 2px solid red;
+}
+
+
+
