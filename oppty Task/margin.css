@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #1a4b91;
+    color: white;
+    height: 700px;
+    
+    
+
+   
+    
+    
+
+}
+nav{
+    display: flex;
+    gap: 20px;
+    color:white;
+    
+    
+}
+.two{
+    justify-content: right;
+}
+
+
+
+.three{
+    justify-content: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: 50px;
+    line-height: 1.6;
+    align-content: center;
+}
+
+    
