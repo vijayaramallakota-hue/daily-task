@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    margin: 50px;
+    padding-right: 50px;
+}
+.one{
+    justify-content: space-between;
+    display: flex;
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.two{
+    text-align: flex-start ;
+    color: azure;
+    margin-top: 150px;
+    margin-right: 300px;
+}
+.two h1{
+    font-size: 70px;
+}
+ .two button{
+    margin-top: 20px;
+    background-color: coral;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#vijji{
+    
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5px;
+    margin-right: 400px;
+    
+    
+}
+.three{
+    color: azure;
+    
+}
+#sat{
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 400px;
+}
+.four h2{
+    color: azure;
+
+}
+.four button{
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px;
+   
+}
